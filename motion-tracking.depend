@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1478324505 source:/home/tflave/motion-tracking/kmean.cpp
+	"kmean.h"
+
+1478271276 /home/tflave/motion-tracking/kmean.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<random>
+	<iostream>
+	<fstream>
+	<math.h>
+
+1478399851 source:/home/tflave/motion-tracking/main.cpp
+	"kmean.h"
+	"sift-feature.h"
+	"motion-feature.h"
+
+1478270295 /home/tflave/motion-tracking/sift-feature.h
+	<core/core.hpp>
+	<highgui/highgui.hpp>
+	<imgproc/imgproc.hpp>
+	<nonfree/features2d.hpp>
+	<cv.h>
+	<opencv.hpp>
+	<iostream>
+	<fstream>
+	<vector>
+	<stdio.h>
+	<ctype.h>
+	<dirent.h>
+
+1478329180 source:/home/tflave/motion-tracking/sift-feature.cpp
+
+1478399788 source:/home/tflave/motion-tracking/motion-feature.cpp
+	"motion-feature.h"
+
+1478399871 /home/tflave/motion-tracking/motion-feature.h
+	<fstream>
+	<iostream>
+	<vector>
+	<stdio.h>
+	<ctype.h>
+	<sstream>
+
